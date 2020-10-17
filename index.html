@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
   <head>
     <meta charset="utf-8">
     <meta content="X-UA-Compatible" name="IE=Edge, chrome=1">
@@ -18,48 +18,29 @@
 
     html,
     body {
+      height: 100%;
+    }
+
+    html {
+      display: table;
+      width: 100%;
+    }
+
+    body {
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
       font-family: 'Arial', sans-serif;
     }
 
-    a {
-      color: red;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    p {
-      letter-spacing: 0.007em;
-      line-height: 180%;
-      padding: 0.3em;
-    }
-
-    header,
-    main {
-      margin: 4% 30%;
-    }
-
-    @media (max-width: 1024px) {
-      header,
-      main {
-        margin: 5%;
-      }
+    h1 {
+      font-size: 4em;
+      text-align: center;
+      font-style: italic;
     }
     </style>
   </head>
   <body>
-    <header>
-      <h1>kistasi</h1>
-    </header>
-    <main>
-      <p>Hi there,</p>
-      <p>My name is <b>Márton Tasnádi</b>, but please call me <b>tasi</b> or <b>kistasi</b>. I'm living in <b>Szeged</b>, Hungary and working as a <b>full stack developer</b>.<p>
-      <p>I mostly use <b>JavaScript, PHP 5/7 or Python</b> programming languages and I have worked with <b>React, Vue, jQuery, Laravel, Yii, Django, MySQL and MongoDB</b>.</p>
-      <p>I also have some experience in <b>Linux distributions, Vagrant, Docker and CMS systems</b>.</p>
-      <p>As a <b>volunteer</b> I'm working on <a href="https://jarokelo.hu/">Jarokelo.hu</a> public space problem reporting website as a <b>developer and report administrator</b> since 2014.</p>
-      <p>You can find me at <a href="https://twitter.com/team4world">Twitter</a>, <a href="https://instagram.com/kistasi">Instagram</a>, <a href="http://kistasi.tumblr.com/">Tumblr</a>, <a href="https://github.com/kistasi">GitHub</a> and <a href="https://linkedin.com/in/kistasi">LinkedIn</a>.</p>
-    </main>
+    <h1>kistasi</h1>
   </body>
 </html>
